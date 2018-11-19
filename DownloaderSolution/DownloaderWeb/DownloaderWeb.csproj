@@ -12,6 +12,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\1234ec6c-c75d-41d7-b1bc-fa16780daf78.pdf" />
+    <Content Remove="wwwroot\477553fe-b6a2-4de8-83d2-324516e17b64.jpeg" />
+    <Content Remove="wwwroot\6e45fe5c-54b2-4575-9a48-f386350aa40b.jpeg" />
+    <Content Remove="wwwroot\8a7a8f66-a780-4e5b-ac8b-f9e604446db0.pdf" />
+    <Content Remove="wwwroot\91b2303f-8fdf-43a3-bb02-116f10a38a53.jpeg" />
+    <Content Remove="wwwroot\91b86cb9-fda4-4149-8862-6a5a34039ec7.pdf" />
+    <Content Remove="wwwroot\9608a01e-f812-48b8-a34d-4b188db33b0b.pdf" />
+    <Content Remove="wwwroot\9a489bc8-5675-4d96-b3dd-bdcfbf1e5e94.pdf" />
+    <Content Remove="wwwroot\ca4ce69f-3f97-4ab6-9a58-a1c22c4f71a8.pdf" />
+    <Content Remove="wwwroot\f714d761-3874-4d71-9fae-7f3bcf744245.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
@@ -33,11 +46,6 @@
     <Content Update="Views\Download\DownloadFile.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\6e45fe5c-54b2-4575-9a48-f386350aa40b.jpeg" />
-    <None Include="wwwroot\f714d761-3874-4d71-9fae-7f3bcf744245.pdf" />
   </ItemGroup>
 
 </Project>
