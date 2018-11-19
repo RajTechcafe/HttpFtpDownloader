@@ -1,0 +1,8 @@
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\bin\Debug\netcoreapp2.0\DownloaderDataModel.deps.json
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\bin\Debug\netcoreapp2.0\DownloaderDataModel.dll
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\bin\Debug\netcoreapp2.0\DownloaderDataModel.pdb
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\obj\Debug\netcoreapp2.0\DownloaderDataModel.csproj.CoreCompileInputs.cache
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\obj\Debug\netcoreapp2.0\DownloaderDataModel.AssemblyInfoInputs.cache
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\obj\Debug\netcoreapp2.0\DownloaderDataModel.AssemblyInfo.cs
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\obj\Debug\netcoreapp2.0\DownloaderDataModel.dll
+c:\users\raj gaurav\source\repos\DownloaderSolution\DownloaderDataModel\obj\Debug\netcoreapp2.0\DownloaderDataModel.pdb

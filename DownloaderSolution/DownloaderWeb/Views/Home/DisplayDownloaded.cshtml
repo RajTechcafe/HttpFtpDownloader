@@ -1,0 +1,49 @@
+﻿@model DownloaderWeb.Models.DownloadMetaData
+
+@{
+    ViewData["Title"] = "DisplayDownloaded";
+}
+
+<h2>DisplayDownloaded</h2>
+
+<div>
+    <h4>DownloadMetaData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.downloadUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.downloadUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FilePath)
+        </dt>
+        <dd>
+          <a href=@Html.DisplayFor(model => model.FilePath)></a>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeTaken)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TimeTaken)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ParallelDownloads)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ParallelDownloads)
+        </dd>
+    </dl>
+</div>
+<div>
+    @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+    @Html.ActionLink("Preview","Preview", new { id = Model.downloadUrl})|
+    <a asp-action="Index">Back to List</a>
+</div>

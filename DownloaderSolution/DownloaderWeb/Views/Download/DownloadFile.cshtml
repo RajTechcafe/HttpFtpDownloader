@@ -1,0 +1,103 @@
+﻿@model List<DownloaderWeb.Models.DownloadMetaData>
+
+@{
+    ViewData["Title"] = "DisplayDownloaded";
+}
+
+<h2>DisplayDownloaded</h2>
+
+@if (ViewData.ModelState["ProtocolError"]!=null && ViewData.ModelState["ProtocolError"].Errors.Count > 0)
+{
+    <div class="alert alert-
+       <strong>Error!</strong> danger">@ViewData.ModelState["ProtocolError"].Errors.First().ErrorMessage
+    </div>
+}
+@if (ViewData.ModelState["DownloadError"] != null && ViewData.ModelState["DownloadError"].Errors.Count > 0)
+{
+    <div class="alert alert-
+       <strong>Error!</strong> danger">@ViewData.ModelState["DownloadError"].Errors.First().ErrorMessage
+    </div>
+}
+@if (ViewData.ModelState["Error"] != null && ViewData.ModelState["Error"].Errors.Count > 0)
+{
+    <div class="alert alert-
+       <strong>Error!</strong> danger">@ViewData.ModelState["Error"].Errors.First().ErrorMessage
+    </div>
+}
+<div class="content col-xs-12 no-padding padding-t-20">
+    <table class="table font-white">
+        <thead>
+            <tr>
+                <th>
+                    FileName
+                </th>
+                <th>
+                    SourceUrl
+                </th>
+                <th>
+                    View
+                </th>
+                <th>
+                    File Type
+                </th>
+                <th>
+                    Downloading Time
+                </th>
+                <th>
+                    File Size
+                </th>
+                <th>
+                   Status
+                </th>
+                <th>
+                   Approve
+                </th>
+                <th>
+                    Reject
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+
+                foreach (var item in Model)
+                {
+                   
+                    <tr>
+                        <th>
+                            <span class="font-bold">@item.FileName</span>
+                        </th>
+                        <th>
+                            <span class="font-bold" style="width:100px;">@item.downloadUrl</span>
+                        </th>
+                        <th>
+                            @switch ((DownloaderBussinessLayer.Helper.FileType)item.FileType)
+                            {
+                                case DownloaderBussinessLayer.Helper.FileType.Images:
+                                    @Html.ActionLink("OpenFile", "OpenFile", "Download", new { virtualPath = item.FilePath , extension = item.ContentType })
+                                    break;
+                                case DownloaderBussinessLayer.Helper.FileType.Files:
+                                @*<a href="@Model.FilePath" target="_blank">Download</a>*@
+                                @Html.ActionLink("OpenFile", "OpenFile", "Download", new { virtualPath = item.FilePath, extension = item.ContentType })
+                                    break;
+                                default:
+                                @item.downloadUrl
+                                    break;
+                            }
+                    </th>
+                    <th>@(((DownloaderBussinessLayer.Helper.FileType)item.FileType).ToString())</th>
+                        <th>@item.TimeTaken</th>
+                    <th>@item.Size</th>
+                        <th>@item.Status</th>
+                    <th><div class="form-group">
+    <input type="submit" value="Approve" onclick="location.href='@Url.Action("Approve", "Download", new { id = item.DownloadId })'" class="btn btn-default" />
+</div></th>
+                        <th>@Html.ActionLink("Reject", "Reject", "Download", new { id = item.DownloadId }, new { @class = "btn btn-info" })</th>
+                </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+

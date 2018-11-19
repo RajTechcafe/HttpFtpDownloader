@@ -1,0 +1,11 @@
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\bin\Debug\netcoreapp2.0\DownloaderSolution.deps.json
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\bin\Debug\netcoreapp2.0\DownloaderSolution.runtimeconfig.json
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\bin\Debug\netcoreapp2.0\DownloaderSolution.runtimeconfig.dev.json
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\bin\Debug\netcoreapp2.0\DownloaderSolution.dll
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\bin\Debug\netcoreapp2.0\DownloaderSolution.pdb
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\obj\Debug\netcoreapp2.0\DownloaderSolution.csprojResolveAssemblyReference.cache
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\obj\Debug\netcoreapp2.0\DownloaderSolution.csproj.CoreCompileInputs.cache
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\obj\Debug\netcoreapp2.0\DownloaderSolution.AssemblyInfoInputs.cache
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\obj\Debug\netcoreapp2.0\DownloaderSolution.AssemblyInfo.cs
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\obj\Debug\netcoreapp2.0\DownloaderSolution.dll
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderSolution\obj\Debug\netcoreapp2.0\DownloaderSolution.pdb

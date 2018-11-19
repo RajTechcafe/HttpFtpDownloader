@@ -1,0 +1,9 @@
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\bin\Debug\netcoreapp2.0\DownloaderBussinessLayer.deps.json
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\bin\Debug\netcoreapp2.0\DownloaderBussinessLayer.dll
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\bin\Debug\netcoreapp2.0\DownloaderBussinessLayer.pdb
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\obj\Debug\netcoreapp2.0\DownloaderBussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\obj\Debug\netcoreapp2.0\DownloaderBussinessLayer.AssemblyInfoInputs.cache
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\obj\Debug\netcoreapp2.0\DownloaderBussinessLayer.AssemblyInfo.cs
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\obj\Debug\netcoreapp2.0\DownloaderBussinessLayer.dll
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\obj\Debug\netcoreapp2.0\DownloaderBussinessLayer.pdb
+C:\Users\RAJ GAURAV\source\repos\DownloaderSolution\DownloaderBussinessLayer\obj\Debug\netcoreapp2.0\DownloaderBussinessLayer.csprojResolveAssemblyReference.cache
